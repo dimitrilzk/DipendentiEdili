@@ -29,12 +29,12 @@
                             <p class="me-5 text-center"><%# Item.CF  %></p>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Sosato">
+                    <asp:TemplateField HeaderText="Sposato">
                         <ItemTemplate>
                             <p class="me-5 text-center"><%# Item.Sposato  %></p>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Figli a carico">
+                    <asp:TemplateField HeaderText="Figli">
                         <ItemTemplate>
                             <p class="me-5 text-center"><%# Item.Figli  %></p>
                         </ItemTemplate>

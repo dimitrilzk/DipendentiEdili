@@ -13,9 +13,9 @@ namespace DipendentiEdili
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection();
             try
             {
-                SqlConnection con = new SqlConnection();
                 con.ConnectionString = ConfigurationManager.ConnectionStrings["EdilDB"].ToString();
                 con.Open();
                 SqlCommand cmd = new SqlCommand();
